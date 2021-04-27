@@ -5,4 +5,4 @@ A place to collect particular Dragon Ball Super Card Game mechanics, interaction
 
 **[MECHANICS](#)** 
 
-**[CARDS](cards/cards.md)**
+**[CARDS](cards/index.md)**

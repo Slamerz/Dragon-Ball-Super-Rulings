@@ -1,5 +1,5 @@
 # A list of cards which have had questions asked on specific rulings
-[Back To Front](../README.md)
+[Back To Front](../index.md)
 
 ### Galactic Battle [BDS-B01]
 |Card ID | Card Name|

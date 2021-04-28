@@ -1,13 +1,13 @@
 # A list of cards which have had questions asked on specific rulings
 [Back To Front](../index.md)
 
-### Galactic Battle [BDS-B01]
+### Galactic Battle [DBS-B01]
 |Card ID | Card Name|
 |------- | ---------|
 |[BT1-057](./BT1-057.md) | [Broly / Broly, The Legendary Super Saiyan](./BT1-057.md)|
 
 
-### UNIVERSAL ONSLAUGHT [BDS-B09]
+### UNIVERSAL ONSLAUGHT [DBS-B09]
 |Card ID | Card Name|
 |------- | ---------|
 | [BT9-093](./BT9-093.md) |[Hit, in Cold Blood](./BT9-093.md)|
@@ -16,6 +16,11 @@
 |Card ID | Card Name|
 |------- | ---------|
 |[BT12-082](./BT12-082.md) | [The Tree of Might](./BT12-082.md)|
+
+### Supreme Rivalry [DBS-B13]
+|Card ID | Card Name|
+|------- | ---------|
+|[BT13-002](./BT13-002.md) | [King Vegeta / King Vegeta, Head of the Saiyan Rebellion](./BT13-002.md)|
 
 ### ULTIMATE BOX [DBS-BE03]
 |Card ID | Card Name|

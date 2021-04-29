@@ -15,7 +15,9 @@
 ### Rise of the Unison Warrior [DBS-B10]
 |Card ID | Card Name|
 |------- | ---------|
+|[BT10-035](./BT10-035.md) |  [Zen-Oh, Cosmic Unison](./BT10-035.md)|
 |[BT10-051](./BT10-051.md) | [Goku Black, Future Decimator]((./BT10-051.md))|
+
 
 ### Vicious Rejuvenation [DBS-B12]
 |Card ID | Card Name|

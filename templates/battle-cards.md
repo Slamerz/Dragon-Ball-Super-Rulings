@@ -29,6 +29,20 @@ Special Traits:
 Era: 
 
 
+### Unofficial FAQ:
+#### 1
+> 
+
+![]()
+
+Answer
+> TLDR: 
+>
+> ~
+> 
+>
+
+
 ### [Official FAQ][1]: 
 #### Q
 > 

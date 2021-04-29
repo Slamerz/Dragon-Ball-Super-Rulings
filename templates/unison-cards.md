@@ -1,11 +1,11 @@
-#  Name
+#  BT10-035 Zen-Oh, Cosmic Unison
 ![front]()
 
 [Back To Card List](./index.md)
 ### Details 
-Cost: (🔴🟡🟢🔵) 
+Cost: X(🔴🟡🟢🔵) 
 
-BATTLE
+UNISON
 
 Rarity: 
 
@@ -17,16 +17,6 @@ Skills:
 > 
 
 Power: 
-
-Combo Power: 
-
-Combo Cost: 
-
-Character: 
-
-Special Traits: 
-
-Era: 
 
 
 ### Unofficial FAQ:

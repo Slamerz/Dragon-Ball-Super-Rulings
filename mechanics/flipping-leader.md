@@ -8,7 +8,7 @@ Added to rules in 1.19
 > - 9-9-1. When a face-up Leader Card is flipped
   to its back, it’s treated as the same
   card as when it was face up.
->  - 9-9-1-1.“The same card” means that the card is 1 card with
+>   - 9-9-1-1.“The same card” means that the card is 1 card with
   different information on the front and back.
 > - 9-9-2. When a face-down Leader Card is
   flipped to its front, it’s treated as the
@@ -56,13 +56,13 @@ Pre 1.19 rules on [Awaken]
 > - 10-2-2. [Awaken] ([Awaken:Surge])
   is described as follows: “[Awaken]
   ([Awaken:Surge]) (condition) (effect).”
->  - 10-2-2-1. Some card text refers to [Awaken] skills. This
+>   - 10-2-2-1. Some card text refers to [Awaken] skills. This
   refers to both [Awaken] and [Awaken : Surge] skills.
 > - 10-2-3. A card for which [Awaken]
   ([Awaken:Surge]) is activated is
   turned over, but is treated as the same
   card.
->  - 10-2-3-1. “The same card” means that the card is 1 card
+>   - 10-2-3-1. “The same card” means that the card is 1 card
   with different information on the front and back.
 > - 10-2-4. If a card is turned over due
   to [Awaken] ([Awaken:Surge]), it is still
@@ -84,7 +84,7 @@ Pre 1.19 rules on [Wish]
 > - 10-28-3. A card for which [Wish] is
   activated is flipped over to its back
   side, but is treated as the same card.
->  - 10-28-3-1. “The same card” means that the card is 1 card
+>   - 10-28-3-1. “The same card” means that the card is 1 card
   with different information on the front and back.
 > - 10-28-4. If a card is flipped to its front
   side due to [Wish], it is still treated as

@@ -3,6 +3,6 @@ A place to collect particular Dragon Ball Super Card Game mechanics, interaction
 
 
 
-**[MECHANICS](#)** 
+**[MECHANICS](mechanics/index.md)** 
 
 **[CARDS](cards/index.md)**

@@ -32,4 +32,9 @@
 ### ULTIMATE BOX [DBS-BE03]
 |Card ID | Card Name|
 |------- | ---------|
-| [EX03-25](./EX03-25.md) | [Zen-Oh/Zen-Oh, Ruler of the Universe](./EX03-25.md)|
+| [EX03-25](./EX03-25.md) | [Zen-Oh / Zen-Oh, Ruler of the Universe](./EX03-25.md)|
+
+### Universe 11 Unison [DBS-BE12]
+|Card ID | Card Name|
+|------- | ---------|
+|[EX12-01](./EX12-01.md)| [Toppo / Toppo, Candidate of Destruction](./EX12-01.md)|

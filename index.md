@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Slamerz/Dragon-Ball-Super-Rulings/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
+![Image](https://www.dbs-cardgame.com/images/cardlist/cardimg/EX06-06.png)
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown

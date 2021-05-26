@@ -28,6 +28,13 @@
 |Card ID | Card Name|
 |------- | ---------|
 |[BT13-002](./BT13-002.md) | [King Vegeta / King Vegeta, Head of the Saiyan Rebellion](./BT13-002.md)|
+|[BT13-046](./BT13-046.md) | [Boujack, on a Rampage](./BT13-046.md)|
+|[BT13-047](./BT13-047.md) | [Boujack, the Evildoer](./BT13-047.md)|
+|[BT13-048](./BT13-048.md) | [Gokua, the Evildoer](./BT13-048.md)|
+|[BT13-052](./BT13-052.md) | [Bido, the Evildoer](./BT13-052.md)|
+|[BT13-054](./BT13-054.md) | [Bujin, the Evildoer](./BT13-054.md)|
+|[BT13-060](./BT13-060.md) | [Galactic Buster Ruling](./BT13-060.md)|
+|[BT13-152](./BT13-152.md) | [Syn Shenron, Corrupted by the Darkness](./BT13-152.md)|
 
 ### ULTIMATE BOX [DBS-BE03]
 |Card ID | Card Name|
@@ -38,3 +45,8 @@
 |Card ID | Card Name|
 |------- | ---------|
 |[EX12-01](./EX12-01.md)| [Toppo / Toppo, Candidate of Destruction](./EX12-01.md)|
+
+### Promotion
+|Card ID | Card Name|
+|------- | ---------|
+|[P-299](./P-299.md)| [Boujack, Rampaging Agent of Destruction](./P-299.md)|

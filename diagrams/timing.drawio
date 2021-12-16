@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T17:06:44.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="z68tFzP_TslUjuvb1bXz" version="15.9.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-16T18:12:48.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="iDmSqxOg17Q4m0Cba19J" version="15.9.1" type="github" pages="5">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -21,20 +21,23 @@
           </mxCell>
         </UserObject>
         <mxCell id="iWEUwf4UZTC7-gsxewFT-4" value="Turn Flow" style="swimlane;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;strokeWidth=5;" parent="1" vertex="1">
-          <mxGeometry x="290" y="190" width="420" height="470" as="geometry" />
+          <mxGeometry x="290" y="190" width="560" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="iWEUwf4UZTC7-gsxewFT-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=#114B5F;" parent="iWEUwf4UZTC7-gsxewFT-4" source="ncUc4xT5pUTNHPfTYMXm-3" target="ncUc4xT5pUTNHPfTYMXm-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iWEUwf4UZTC7-gsxewFT-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=#114B5F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iWEUwf4UZTC7-gsxewFT-4" source="ncUc4xT5pUTNHPfTYMXm-3" target="6ePvjoLvsn_VJ5xuNLkL-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ncUc4xT5pUTNHPfTYMXm-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Charge Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player switches all cards in rest mode to active mode&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player draws 1 card (Unless it is the first player on turn 1)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Charge up to 1 energy&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
-          <mxGeometry x="65" y="32.5" width="290" height="127.5" as="geometry" />
-        </mxCell>
-        <mxCell id="ncUc4xT5pUTNHPfTYMXm-7" value="End Phase" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
-          <mxGeometry x="150" y="330" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ncUc4xT5pUTNHPfTYMXm-5" value="Main Phase" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
-          <mxGeometry x="150" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Charge Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player switches all cards in rest mode to active mode&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player draws 1 card (Unless it is the first player on turn 1)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Charge up to 1 energy&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" link="data:page/id,yqXrdRU4foYMA0pmyczV" id="ncUc4xT5pUTNHPfTYMXm-3">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
+            <mxGeometry x="135" y="32.5" width="290" height="127.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Main Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player is granted free timing&lt;br&gt;(They can do any of the following actions any number of times)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Play a Battle Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Play a Unison Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Activate: Main skill&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Awaken/Wish&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Attack&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Once Per turn place the same unison under a unison in play to +1 marker&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;End Main Phase&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" id="6ePvjoLvsn_VJ5xuNLkL-1">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" vertex="1" parent="iWEUwf4UZTC7-gsxewFT-4">
+            <mxGeometry x="37.5" y="210" width="485" height="210" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
@@ -245,6 +248,187 @@
         </UserObject>
         <mxCell id="uC5hUehazhjpG88K6nCE-20" value="&lt;font color=&quot;#ffffff&quot;&gt;End Charge Phase&lt;/font&gt;" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#99FF33;strokeColor=#028090;fillColor=#F45B69;direction=south;verticalAlign=top;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
           <mxGeometry x="360" y="1350" width="130" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Main Phase" id="qPkP8_CZE14BN6vN2z8y">
+    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="--x1t3FobfX31laJMn9L-0" />
+        <mxCell id="--x1t3FobfX31laJMn9L-1" parent="--x1t3FobfX31laJMn9L-0" />
+        <mxCell id="--x1t3FobfX31laJMn9L-60" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;align=center;strokeColor=#028090;fillColor=#F45B69;edgeStyle=orthogonalEdgeStyle;sketch=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-3" target="--x1t3FobfX31laJMn9L-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-3" value="START" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-4" value="&quot;At the beginning of the main phase&quot;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=237.75;arrowHead=10;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="550" y="80" width="267.75" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-5" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228 , 253 , 225) ; font-family: &amp;quot;helvetica&amp;quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Trigger&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;dashed=1;labelBackgroundColor=none;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-3" target="--x1t3FobfX31laJMn9L-4">
+          <mxGeometry x="0.0545" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="130" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="450" y="115" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-6" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-7" target="--x1t3FobfX31laJMn9L-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;null&quot;&gt;Checkpoint&lt;/a&gt;" id="--x1t3FobfX31laJMn9L-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+            <mxGeometry x="341" y="185" width="168" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="--x1t3FobfX31laJMn9L-26" value="Free Timing" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="-83" y="300" width="1017" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-34" value="Play A Unison" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endWidth=12;endSize=5.67;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-27" target="--x1t3FobfX31laJMn9L-33">
+          <mxGeometry x="-0.039" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="153" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-36" value="Activate: Main Skill&lt;br&gt;(This includes Awaken and Wish)" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;endWidth=24;endSize=9.67;width=7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-27" target="--x1t3FobfX31laJMn9L-35">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-38" value="Place Unison under Unison in play" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-27" target="--x1t3FobfX31laJMn9L-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="646" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-27" value="Turn Player does an action" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="420" y="70" width="177" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-29" value="Play a battle card (Hard Cast)" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-27" target="--x1t3FobfX31laJMn9L-31">
+          <mxGeometry x="-0.3469" relative="1" as="geometry">
+            <mxPoint x="243" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-31" value="Hard Cast Battle Card" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="133" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-33" value="Play A Unison Card" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="300" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-35" value="Resolve Skill" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="448" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-37" value="Add 1 marker to unison" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="603" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-39" value="Battle" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="756" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-40" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-27" target="--x1t3FobfX31laJMn9L-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-41" value="Attack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" vertex="1" connectable="0" parent="--x1t3FobfX31laJMn9L-40">
+          <mxGeometry x="-0.5094" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-46" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-42" target="--x1t3FobfX31laJMn9L-27">
+          <mxGeometry x="-0.9564" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="73" y="570" />
+              <mxPoint x="73" y="60" />
+              <mxPoint x="467" y="60" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-42" value="Turn player ends main phase?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-26">
+          <mxGeometry x="441.5" y="500" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-61" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-26" source="--x1t3FobfX31laJMn9L-35" target="--x1t3FobfX31laJMn9L-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512" y="380" />
+              <mxPoint x="512" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-45" value="Yes" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#99FF33;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.524;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-42" target="--x1t3FobfX31laJMn9L-50">
+          <mxGeometry x="-0.8295" y="-10" relative="1" as="geometry">
+            <mxPoint x="429" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="519" y="870" />
+              <mxPoint x="519" y="960" />
+              <mxPoint x="429" y="960" />
+            </Array>
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-48" value="&quot;At the end of the main phase&quot;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=237.75;arrowHead=10;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="560" y="960" width="267.75" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-49" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228 , 253 , 225) ; font-family: &amp;quot;helvetica&amp;quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Trigger&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;dashed=1;labelBackgroundColor=none;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="--x1t3FobfX31laJMn9L-1" target="--x1t3FobfX31laJMn9L-48" source="--x1t3FobfX31laJMn9L-42">
+          <mxGeometry x="-0.2293" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="870" />
+              <mxPoint x="520" y="1005" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="450" y="975" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-52" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-50" target="--x1t3FobfX31laJMn9L-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;null&quot;&gt;Checkpoint&lt;/a&gt;" id="--x1t3FobfX31laJMn9L-50">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+            <mxGeometry x="341" y="1060" width="168" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="--x1t3FobfX31laJMn9L-54" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-51" target="--x1t3FobfX31laJMn9L-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-51" value="Effects that last &quot;until the end of the main phase&quot; end for the turn player" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="333" y="1200" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-56" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-53" target="--x1t3FobfX31laJMn9L-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-53" value="Effects that last &quot;until the end of the main phase&quot; end for the non-turn player" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="327" y="1310" width="197" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-59" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-55" value="&lt;font color=&quot;#ffffff&quot;&gt;End Main Phase&lt;/font&gt;" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FF3333;strokeColor=#028090;fillColor=#F45B69;direction=south;verticalAlign=top;" vertex="1" parent="--x1t3FobfX31laJMn9L-1">
+          <mxGeometry x="363" y="1420" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-57" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--x1t3FobfX31laJMn9L-58" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="--x1t3FobfX31laJMn9L-1" source="--x1t3FobfX31laJMn9L-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

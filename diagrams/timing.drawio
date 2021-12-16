@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T15:10:52.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="-5u_5CcSPpv10UDonh_8" version="15.9.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-16T16:48:36.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="naIwGEjaQS3QZgCuXTGV" version="15.9.1" type="github" pages="3">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
         <mxCell id="SND0tZBV5guWifqb1_tv-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="qfcJfHz-gk92rwK0EIHv-1" source="SND0tZBV5guWifqb1_tv-2" target="SND0tZBV5guWifqb1_tv-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SND0tZBV5guWifqb1_tv-2" value="Each player may return any number of cards to their deck" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
+        <mxCell id="SND0tZBV5guWifqb1_tv-2" value="Starting with the starting player each player may return any number of cards to their deck" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
           <mxGeometry x="264.49" y="1270" width="320.01" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SND0tZBV5guWifqb1_tv-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#99FF33;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="qfcJfHz-gk92rwK0EIHv-1" source="SND0tZBV5guWifqb1_tv-6" target="SND0tZBV5guWifqb1_tv-8">
@@ -110,19 +110,19 @@
         <mxCell id="SND0tZBV5guWifqb1_tv-14" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="qfcJfHz-gk92rwK0EIHv-1" source="SND0tZBV5guWifqb1_tv-6" target="SND0tZBV5guWifqb1_tv-12">
           <mxGeometry x="-0.9211" y="-5" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="1475" />
-              <mxPoint x="300" y="1870" />
+              <mxPoint x="280" y="1475" />
+              <mxPoint x="280" y="1870" />
             </Array>
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SND0tZBV5guWifqb1_tv-6" value="Did you return any cards to the deck?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
+        <mxCell id="SND0tZBV5guWifqb1_tv-6" value="Did the player return any cards to the deck?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
           <mxGeometry x="359.5" y="1410" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="SND0tZBV5guWifqb1_tv-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#99FF33;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="qfcJfHz-gk92rwK0EIHv-1" source="SND0tZBV5guWifqb1_tv-8" target="SND0tZBV5guWifqb1_tv-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SND0tZBV5guWifqb1_tv-8" value="Shuffle the deck" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
+        <mxCell id="SND0tZBV5guWifqb1_tv-8" value="Shuffle their deck" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
           <mxGeometry x="500" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PTkMI5Fb_Anu1UWqGTLA-5" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228 , 253 , 225) ; font-family: &amp;quot;helvetica&amp;quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Trigger&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;dashed=1;labelBackgroundColor=none;strokeWidth=4;" parent="qfcJfHz-gk92rwK0EIHv-1" source="PTkMI5Fb_Anu1UWqGTLA-2" target="PTkMI5Fb_Anu1UWqGTLA-4" edge="1">
@@ -136,7 +136,7 @@
         <mxCell id="SND0tZBV5guWifqb1_tv-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#99FF33;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qfcJfHz-gk92rwK0EIHv-1" source="SND0tZBV5guWifqb1_tv-10" target="SND0tZBV5guWifqb1_tv-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SND0tZBV5guWifqb1_tv-10" value="Draw the number of cards you returned to the deck." style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
+        <mxCell id="SND0tZBV5guWifqb1_tv-10" value="They Draw the number of cards They returned to the deck." style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
           <mxGeometry x="470" y="1700" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SND0tZBV5guWifqb1_tv-16" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="qfcJfHz-gk92rwK0EIHv-1" source="SND0tZBV5guWifqb1_tv-12" target="SND0tZBV5guWifqb1_tv-15">

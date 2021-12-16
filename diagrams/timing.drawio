@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T16:48:36.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="naIwGEjaQS3QZgCuXTGV" version="15.9.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-16T17:06:44.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="z68tFzP_TslUjuvb1bXz" version="15.9.1" type="github" pages="4">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ncUc4xT5pUTNHPfTYMXm-4" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;shape=flexArrow;labelBackgroundColor=#114B5F;" parent="1" source="ncUc4xT5pUTNHPfTYMXm-2" target="ncUc4xT5pUTNHPfTYMXm-3" edge="1">
+        <mxCell id="33zBgRBGXRAwoapfAUs--3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="1" source="ncUc4xT5pUTNHPfTYMXm-2" target="ncUc4xT5pUTNHPfTYMXm-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b style=&quot;font-size: 21px&quot;&gt;Setup&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Present Leader Cards&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Shuffle/Place Decks&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Decide who goes first&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Draw 6 cards&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Mulligan&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Place 8 cards in life&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" link="data:page/id,Diw7MWGEJOFJjZEXb5YK" id="ncUc4xT5pUTNHPfTYMXm-2">
@@ -21,13 +21,13 @@
           </mxCell>
         </UserObject>
         <mxCell id="iWEUwf4UZTC7-gsxewFT-4" value="Turn Flow" style="swimlane;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;strokeWidth=5;" parent="1" vertex="1">
-          <mxGeometry x="280" y="170" width="420" height="390" as="geometry" />
+          <mxGeometry x="290" y="190" width="420" height="470" as="geometry" />
         </mxCell>
         <mxCell id="iWEUwf4UZTC7-gsxewFT-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=#114B5F;" parent="iWEUwf4UZTC7-gsxewFT-4" source="ncUc4xT5pUTNHPfTYMXm-3" target="ncUc4xT5pUTNHPfTYMXm-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ncUc4xT5pUTNHPfTYMXm-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Charge Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Switch all cards in rest mode to active mode&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;turn player draw 1 card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Charge up to 1 energy&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
-          <mxGeometry x="65" y="32.5" width="290" height="105" as="geometry" />
+        <mxCell id="ncUc4xT5pUTNHPfTYMXm-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Charge Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player switches all cards in rest mode to active mode&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player draws 1 card (Unless it is the first player on turn 1)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Charge up to 1 energy&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
+          <mxGeometry x="65" y="32.5" width="290" height="127.5" as="geometry" />
         </mxCell>
         <mxCell id="ncUc4xT5pUTNHPfTYMXm-7" value="End Phase" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
           <mxGeometry x="150" y="330" width="120" height="60" as="geometry" />
@@ -147,6 +147,104 @@
         </mxCell>
         <mxCell id="SND0tZBV5guWifqb1_tv-15" value="End Setup Phase" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;direction=south;verticalAlign=top;" vertex="1" parent="qfcJfHz-gk92rwK0EIHv-1">
           <mxGeometry x="363.33000000000004" y="1960" width="133.33" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Charge Phase" id="yqXrdRU4foYMA0pmyczV">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="Dc-YGaoY_A1PUvgtiE76-0" />
+        <mxCell id="Dc-YGaoY_A1PUvgtiE76-1" parent="Dc-YGaoY_A1PUvgtiE76-0" />
+        <mxCell id="Dc-YGaoY_A1PUvgtiE76-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;align=center;strokeColor=#028090;fillColor=#F45B69;edgeStyle=orthogonalEdgeStyle;sketch=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="Dc-YGaoY_A1PUvgtiE76-3" target="uC5hUehazhjpG88K6nCE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dc-YGaoY_A1PUvgtiE76-3" value="START" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-0" value="“At the beginning of the turn”&lt;br&gt;&quot;At the beginning of the Charge Phase&quot;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=237.75;arrowHead=10;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="550" y="80" width="267.75" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-1" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228 , 253 , 225) ; font-family: &amp;quot;helvetica&amp;quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Trigger&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;dashed=1;labelBackgroundColor=none;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" target="uC5hUehazhjpG88K6nCE-0" source="Dc-YGaoY_A1PUvgtiE76-3">
+          <mxGeometry x="0.0545" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="130" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="450" y="115" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-4" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-2" target="uC5hUehazhjpG88K6nCE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;null&quot;&gt;Checkpoint&lt;/a&gt;" id="uC5hUehazhjpG88K6nCE-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+            <mxGeometry x="341" y="185" width="168" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uC5hUehazhjpG88K6nCE-6" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-3" target="uC5hUehazhjpG88K6nCE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-3" value="Effects that last &quot;for the turn&quot; occur for turn player" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="365" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-8" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-5" target="uC5hUehazhjpG88K6nCE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-5" value="Effects that last &quot;for the turn&quot; occur for non-turn player" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="364.49" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-10" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-7" target="uC5hUehazhjpG88K6nCE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-7" value="Turn player swith all of the cards in their Leader Area, Battle Area, Energy Area, and Unison Area that are in Rest Mode to Active Mode" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="231.73" y="550" width="385.51" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-12" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-9" target="uC5hUehazhjpG88K6nCE-11">
+          <mxGeometry x="-0.6702" y="-15" relative="1" as="geometry">
+            <mxPoint x="15" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-15" value="&lt;font color=&quot;#99ff33&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-9" target="uC5hUehazhjpG88K6nCE-13">
+          <mxGeometry x="-0.9114" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-9" value="Is the Turn Player going first on turn 1?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="301.73" y="710" width="245.51" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-14" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-11" target="uC5hUehazhjpG88K6nCE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-11" value="Turn Player Draws 1 card" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="221.01" y="900" width="119.99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#99FF33;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-13" target="uC5hUehazhjpG88K6nCE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;null&quot;&gt;Checkpoint&lt;/a&gt;" id="uC5hUehazhjpG88K6nCE-13">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+            <mxGeometry x="341" y="960" width="168" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uC5hUehazhjpG88K6nCE-19" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#99FF33;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-16" target="uC5hUehazhjpG88K6nCE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-16" value="Turn player may place 1 card from their hand into the Energy Area" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="298" y="1100" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5hUehazhjpG88K6nCE-21" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="Dc-YGaoY_A1PUvgtiE76-1" source="uC5hUehazhjpG88K6nCE-18" target="uC5hUehazhjpG88K6nCE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;null&quot;&gt;Checkpoint&lt;/a&gt;" id="uC5hUehazhjpG88K6nCE-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+            <mxGeometry x="341.5" y="1210" width="168" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uC5hUehazhjpG88K6nCE-20" value="&lt;font color=&quot;#ffffff&quot;&gt;End Charge Phase&lt;/font&gt;" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#99FF33;strokeColor=#028090;fillColor=#F45B69;direction=south;verticalAlign=top;" vertex="1" parent="Dc-YGaoY_A1PUvgtiE76-1">
+          <mxGeometry x="360" y="1350" width="130" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,27 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T18:12:48.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="iDmSqxOg17Q4m0Cba19J" version="15.9.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-17T04:28:03.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="3MSCJqMOWqW_9siHzp27" version="15.9.1" type="github" pages="5">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="33zBgRBGXRAwoapfAUs--3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="1" source="ncUc4xT5pUTNHPfTYMXm-2" target="ncUc4xT5pUTNHPfTYMXm-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <UserObject label="&lt;b style=&quot;font-size: 21px&quot;&gt;Setup&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Present Leader Cards&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Shuffle/Place Decks&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Decide who goes first&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Draw 6 cards&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Mulligan&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Place 8 cards in life&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" link="data:page/id,Diw7MWGEJOFJjZEXb5YK" id="ncUc4xT5pUTNHPfTYMXm-2">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;align=center;rounded=1;" parent="1" vertex="1">
-            <mxGeometry x="-10" y="180" width="210" height="150" as="geometry" />
+            <mxGeometry x="-10" y="180" width="260" height="150" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="iWEUwf4UZTC7-gsxewFT-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;" parent="1" source="iWEUwf4UZTC7-gsxewFT-2" target="ncUc4xT5pUTNHPfTYMXm-2" edge="1">
+        <mxCell id="VKS6OxfVQQIAS_5QUa6j-2" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="1" source="iWEUwf4UZTC7-gsxewFT-2" target="ncUc4xT5pUTNHPfTYMXm-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 24px&quot;&gt;Deck&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;1 Leader Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;50-60 cards&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Up to 4 total cards with [Super Combo]&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Up to 1 total cards with [Ultimate]&lt;/li&gt;&lt;/ul&gt;" id="iWEUwf4UZTC7-gsxewFT-2">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;align=center;rounded=1;" parent="1" vertex="1">
-            <mxGeometry x="-40" y="20" width="270" height="120" as="geometry" />
+            <mxGeometry x="-10" width="260" height="140" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="iWEUwf4UZTC7-gsxewFT-4" value="Turn Flow" style="swimlane;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;strokeWidth=5;" parent="1" vertex="1">
-          <mxGeometry x="290" y="190" width="560" height="550" as="geometry" />
+        <mxCell id="iWEUwf4UZTC7-gsxewFT-4" value="Turn Flow" style="swimlane;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;strokeWidth=5;swimlaneFillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="300" y="150" width="560" height="550" as="geometry" />
         </mxCell>
         <mxCell id="iWEUwf4UZTC7-gsxewFT-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=#114B5F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iWEUwf4UZTC7-gsxewFT-4" source="ncUc4xT5pUTNHPfTYMXm-3" target="6ePvjoLvsn_VJ5xuNLkL-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -30,14 +27,48 @@
         </mxCell>
         <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Charge Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player switches all cards in rest mode to active mode&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player draws 1 card (Unless it is the first player on turn 1)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Charge up to 1 energy&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" link="data:page/id,yqXrdRU4foYMA0pmyczV" id="ncUc4xT5pUTNHPfTYMXm-3">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
-            <mxGeometry x="135" y="32.5" width="290" height="127.5" as="geometry" />
+            <mxGeometry x="135" y="41.25" width="290" height="127.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Main Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player is granted free timing&lt;br&gt;(They can do any of the following actions any number of times)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Play a Battle Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Play a Unison Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Activate: Main skill&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Awaken/Wish&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Attack&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Once Per turn place the same unison under a unison in play to +1 marker&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;End Main Phase&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" id="6ePvjoLvsn_VJ5xuNLkL-1">
+        <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Main Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Turn player is granted free timing&lt;br&gt;(They can do any of the following actions any number of times)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Play a Battle Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Play a Unison Card&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Activate: Main skill&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Awaken/Wish&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Attack&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Once Per turn place the same unison under a unison in play to +1 marker&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;End Main Phase&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" link="data:page/id,qPkP8_CZE14BN6vN2z8y" id="6ePvjoLvsn_VJ5xuNLkL-1">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" vertex="1" parent="iWEUwf4UZTC7-gsxewFT-4">
             <mxGeometry x="37.5" y="210" width="485" height="210" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="VKS6OxfVQQIAS_5QUa6j-1" value="" style="swimlane;startSize=0;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=default;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="920" width="500" height="960" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;Play a Battle card from your hand&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Reveal the card being played&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Switch the energy cost to rest mode&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Counter: Play Window 1&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Play the Battle Card&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Trigger &quot;When this card is played&quot;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" id="VKS6OxfVQQIAS_5QUa6j-4">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=16;" vertex="1" parent="VKS6OxfVQQIAS_5QUa6j-1">
+            <mxGeometry x="30" y="50" width="450" height="127.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;Play a Unison card from your hand&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Reveal the card being played&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Switch the energy cost to rest mode + any number of other energy&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Counter: Play Window 1&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Play the unison card with an amout of markers equal to energy paid&lt;br&gt;(If there is another Unison card in the unison area send it, and any other cards in under it to the drop)&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Trigger &quot;When this card is played&quot;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" id="VKS6OxfVQQIAS_5QUa6j-9">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=16;" vertex="1" parent="VKS6OxfVQQIAS_5QUa6j-1">
+            <mxGeometry x="30" y="210" width="450" height="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;Activate: Main skill&lt;br&gt;(this include [Awaken/Wish]&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Reveal card with the skill (if in secret area)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Pay cost of skill&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Counter: Play Window 1 (If skill can play a card)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Resolve skill&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Counter: Play Window 2 (If skill played a card)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" id="VKS6OxfVQQIAS_5QUa6j-10">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=16;align=center;" vertex="1" parent="VKS6OxfVQQIAS_5QUa6j-1">
+            <mxGeometry x="30" y="410" width="450" height="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;+1 marker to unison&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;(Once per turn)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;If you have a unison in the unison area, and you have another copy of the same unison in your hand&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Place another copy of a Unison card from hand under current unison card&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Add 1 marker to the unison card.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" id="VKS6OxfVQQIAS_5QUa6j-11">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=16;" vertex="1" parent="VKS6OxfVQQIAS_5QUa6j-1">
+            <mxGeometry x="30" y="610" width="450" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;Attack/Battle&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Reveal the card being played&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Switch the energy cost to rest mode + any number of other energy&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Counter: Play Window 1&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Play the unison card with an amout of markers equal to energy paid&lt;br&gt;(If there is another Unison card in the unison area send it, and any other cards in under it to the drop)&lt;/li&gt;&lt;li style=&quot;font-size: 13px ; text-align: left&quot;&gt;Trigger &quot;When this card is played&quot;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" id="VKS6OxfVQQIAS_5QUa6j-12">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=16;" vertex="1" parent="VKS6OxfVQQIAS_5QUa6j-1">
+            <mxGeometry x="30" y="790" width="450" height="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="33zBgRBGXRAwoapfAUs--3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="1" source="ncUc4xT5pUTNHPfTYMXm-2" target="ncUc4xT5pUTNHPfTYMXm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VKS6OxfVQQIAS_5QUa6j-7" value="" style="html=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stripedArrow;dy=0.6;dx=40;notch=73;rounded=1;labelBackgroundColor=rgb(42, 42, 42);fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;gradientColor=none;fontSize=11;strokeWidth=4;endArrow=classic;" vertex="1" parent="1">
+          <mxGeometry x="810" y="430" width="130" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

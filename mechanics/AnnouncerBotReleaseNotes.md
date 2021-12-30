@@ -21,3 +21,6 @@ Invite the bot in one easy click handles all of the permissions.
 > We update the prices for TCG Player every other day to provide as accurate pricing as possible, and you can easily buy any card by clicking the cards name on each card.
 
 ![slashCommands](https://media.giphy.com/media/yZG4C5GYenCPmVCde2/giphy.gif?cid=790b76116bd323ed455887967be1cbf744c96d2813717c5e&rid=giphy.gif&ct=g)
+
+#### Recent Updates
+> Now includes a simple to use interface to select cards, and buttons to view the FAQ of any cards!!!!

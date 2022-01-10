@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T03:24:25.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Nas8vGQNhtngpK6gya4A" version="15.9.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-01-10T03:36:38.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZuQXaIPBEfluZC7NljMw" version="16.0.3" type="github" pages="9">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -35,12 +35,12 @@
             <mxGeometry x="37.5" y="260" width="485" height="210" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iWEUwf4UZTC7-gsxewFT-4" source="6ePvjoLvsn_VJ5xuNLkL-1" target="XEkP1il1vX4DgcOylqJt-6">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iWEUwf4UZTC7-gsxewFT-4" source="6ePvjoLvsn_VJ5xuNLkL-1" target="XEkP1il1vX4DgcOylqJt-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-7" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#FC9F9F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="iWEUwf4UZTC7-gsxewFT-4" source="XEkP1il1vX4DgcOylqJt-6" target="ncUc4xT5pUTNHPfTYMXm-3">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-7" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#FC9F9F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="iWEUwf4UZTC7-gsxewFT-4" source="XEkP1il1vX4DgcOylqJt-6" target="ncUc4xT5pUTNHPfTYMXm-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="280" y="670" />
@@ -51,7 +51,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;End Phase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;At the end of turn [Auto]&#39;s&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;For the duration of the turn effects end&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;The Non-Turn Player becomes the Turn Player&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" id="XEkP1il1vX4DgcOylqJt-6">
-          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" vertex="1" parent="iWEUwf4UZTC7-gsxewFT-4">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;arcSize=20;" parent="iWEUwf4UZTC7-gsxewFT-4" vertex="1">
             <mxGeometry x="50" y="511.25" width="460" height="137.5" as="geometry" />
           </mxCell>
         </UserObject>
@@ -86,7 +86,7 @@
         <mxCell id="VKS6OxfVQQIAS_5QUa6j-7" value="" style="html=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stripedArrow;dy=0.6;dx=40;notch=73;rounded=1;labelBackgroundColor=rgb(42, 42, 42);fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;gradientColor=none;fontSize=11;strokeWidth=4;endArrow=classic;" parent="1" vertex="1">
           <mxGeometry x="820" y="430" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="1" source="ncUc4xT5pUTNHPfTYMXm-2" target="ncUc4xT5pUTNHPfTYMXm-3">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" parent="1" source="ncUc4xT5pUTNHPfTYMXm-2" target="ncUc4xT5pUTNHPfTYMXm-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="259" />
@@ -94,86 +94,86 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-8" value="Symbols" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;swimlaneFillColor=default;fillColor=#F45B69;strokeColor=#028090;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-8" value="Symbols" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;swimlaneFillColor=default;fillColor=#F45B69;strokeColor=#028090;rounded=1;" parent="1" vertex="1">
           <mxGeometry y="370" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-9" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-8">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-9" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-8" vertex="1">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-10" value="《 》" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-9">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-10" value="《 》" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-9" vertex="1">
           <mxGeometry width="54" height="30" as="geometry">
             <mxRectangle width="54" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-11" value="Trait" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-9">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-11" value="Trait" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-9" vertex="1">
           <mxGeometry x="54" width="186" height="30" as="geometry">
             <mxRectangle width="186" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-8">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-8" vertex="1">
           <mxGeometry y="60" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-13" value="&amp;lt;&amp;nbsp; &amp;gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-12">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-13" value="&amp;lt;&amp;nbsp; &amp;gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-12" vertex="1">
           <mxGeometry width="54" height="30" as="geometry">
             <mxRectangle width="54" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-14" value="Character Name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-12">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-14" value="Character Name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-12" vertex="1">
           <mxGeometry x="54" width="186" height="30" as="geometry">
             <mxRectangle width="186" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-15" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-8">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-15" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-8" vertex="1">
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-16" value=" { }" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-15">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-16" value=" { }" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-15" vertex="1">
           <mxGeometry width="54" height="30" as="geometry">
             <mxRectangle width="54" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-17" value="Card Name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-15">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-17" value="Card Name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-15" vertex="1">
           <mxGeometry x="54" width="186" height="30" as="geometry">
             <mxRectangle width="186" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-18" value="Terms" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;swimlaneFillColor=default;fillColor=#F45B69;strokeColor=#028090;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-18" value="Terms" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;swimlaneFillColor=default;fillColor=#F45B69;strokeColor=#028090;rounded=1;" parent="1" vertex="1">
           <mxGeometry y="870" width="870" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-19" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-18">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-19" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-18" vertex="1">
           <mxGeometry y="30" width="870" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-20" value="KO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-19">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-20" value="KO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-19" vertex="1">
           <mxGeometry width="196" height="90" as="geometry">
             <mxRectangle width="196" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-21" value="KO is the act of moving a Battle Card from the battle area to the owner&#39;s Drop Area.&lt;br&gt;&lt;br&gt;A card is only KO&#39;d when an effect says &quot;KO&quot; or because of a rule that specifies to &quot;KO&quot; a card like when a battle card is attacked and loses the battle.&lt;br&gt;&lt;br&gt;&quot;Send a card from the battle area to the drop&quot; and &quot;KO&quot; is not the same effect." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-19">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-21" value="KO is the act of moving a Battle Card from the battle area to the owner&#39;s Drop Area.&lt;br&gt;&lt;br&gt;A card is only KO&#39;d when an effect says &quot;KO&quot; or because of a rule that specifies to &quot;KO&quot; a card like when a battle card is attacked and loses the battle.&lt;br&gt;&lt;br&gt;&quot;Send a card from the battle area to the drop&quot; and &quot;KO&quot; is not the same effect." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-19" vertex="1">
           <mxGeometry x="196" width="674" height="90" as="geometry">
             <mxRectangle width="674" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-22" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-18">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-22" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-18" vertex="1">
           <mxGeometry y="120" width="870" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-23" value="Token" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-22">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-23" value="Token" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-22" vertex="1">
           <mxGeometry width="196" height="100" as="geometry">
             <mxRectangle width="196" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-24" value="A token is&amp;nbsp; a battle card created by a skill.&lt;br&gt;&lt;br&gt;Tokens are created only with the information stated in the skill that creates the token.&lt;br&gt;If the skill does not list a card detail like &quot;Energy cost&quot; or &quot;Combo Power&quot; the token does not have this detail.&lt;br&gt;(Example: A token without an energy cost is not &quot;A Battle Card with an energy cost of 3 or less&quot; as it has no cost, not 0 cost)&lt;br&gt;&lt;br&gt;If a token would be moved to an area other than the Battle or combo area, it is removed from the game instead.&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-22">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-24" value="A token is&amp;nbsp; a battle card created by a skill.&lt;br&gt;&lt;br&gt;Tokens are created only with the information stated in the skill that creates the token.&lt;br&gt;If the skill does not list a card detail like &quot;Energy cost&quot; or &quot;Combo Power&quot; the token does not have this detail.&lt;br&gt;(Example: A token without an energy cost is not &quot;A Battle Card with an energy cost of 3 or less&quot; as it has no cost, not 0 cost)&lt;br&gt;&lt;br&gt;If a token would be moved to an area other than the Battle or combo area, it is removed from the game instead.&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-22" vertex="1">
           <mxGeometry x="196" width="674" height="100" as="geometry">
             <mxRectangle width="674" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-25" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-18">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-25" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-18" vertex="1">
           <mxGeometry y="220" width="870" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-26" value=" Discard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-25">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-26" value=" Discard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-25" vertex="1">
           <mxGeometry width="196" height="60" as="geometry">
             <mxRectangle width="196" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEkP1il1vX4DgcOylqJt-27" value="&quot;Discard&quot; refers to placing a card from a players hand to the drop&lt;br&gt;&lt;br&gt;Discard and &quot;Send a card from your hand to the drop&quot; are the same effect." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="XEkP1il1vX4DgcOylqJt-25">
+        <mxCell id="XEkP1il1vX4DgcOylqJt-27" value="&quot;Discard&quot; refers to placing a card from a players hand to the drop&lt;br&gt;&lt;br&gt;Discard and &quot;Send a card from your hand to the drop&quot; are the same effect." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="XEkP1il1vX4DgcOylqJt-25" vertex="1">
           <mxGeometry x="196" width="674" height="60" as="geometry">
             <mxRectangle width="674" height="60" as="alternateBounds" />
           </mxGeometry>
@@ -576,7 +576,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FttpYedwaDxRV9TZAueA" name="Checkpoint-Detailed-TurnPlayer">
-    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-0" />
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-1" parent="EYRNuwx6sj7EWlMIYKQJ-0" />
@@ -620,9 +620,6 @@
           <mxGeometry x="530" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-17" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;align=center;strokeColor=#028090;fillColor=#F45B69;edgeStyle=orthogonalEdgeStyle;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" source="EYRNuwx6sj7EWlMIYKQJ-12" target="EYRNuwx6sj7EWlMIYKQJ-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EYRNuwx6sj7EWlMIYKQJ-18" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 4;labelBackgroundColor=#114B5F;strokeWidth=4;" parent="EYRNuwx6sj7EWlMIYKQJ-1" source="EYRNuwx6sj7EWlMIYKQJ-21" target="EYRNuwx6sj7EWlMIYKQJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-12" value="Master Pays Cost of skill" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
@@ -669,7 +666,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EYRNuwx6sj7EWlMIYKQJ-26" value="&lt;span&gt;Did you play a card?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
+        <mxCell id="EYRNuwx6sj7EWlMIYKQJ-26" value="Did the skill have the option to &quot;Play&quot; a card?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
           <mxGeometry x="510" y="1340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="BH5rsp91wqA0aSOB4sPM-7" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;align=center;strokeColor=#028090;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;fillColor=#F45B69;" parent="EYRNuwx6sj7EWlMIYKQJ-1" source="EYRNuwx6sj7EWlMIYKQJ-28" target="EYRNuwx6sj7EWlMIYKQJ-3" edge="1">
@@ -748,6 +745,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EYRNuwx6sj7EWlMIYKQJ-18" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 4;labelBackgroundColor=#114B5F;strokeWidth=4;" parent="EYRNuwx6sj7EWlMIYKQJ-1" source="EYRNuwx6sj7EWlMIYKQJ-21" target="EYRNuwx6sj7EWlMIYKQJ-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

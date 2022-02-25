@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T22:02:29.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="eTdajcmBxO58qZ0fuWzX" version="16.5.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-02-25T03:32:20.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="M8HeFjPiiX6kp7LHMYBW" version="16.5.6" type="github" pages="10">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -576,7 +576,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FttpYedwaDxRV9TZAueA" name="Checkpoint-Detailed-TurnPlayer">
-    <mxGraphModel dx="1831" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1831" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-0" />
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-1" parent="EYRNuwx6sj7EWlMIYKQJ-0" />
@@ -616,7 +616,7 @@
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-13" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;align=center;strokeColor=#028090;fillColor=#F45B69;edgeStyle=orthogonalEdgeStyle;sketch=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" source="EYRNuwx6sj7EWlMIYKQJ-9" target="JjtqYxpSTMepGKTpITT0-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EYRNuwx6sj7EWlMIYKQJ-9" value="Turn Player Picks a Pending [Auto]" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
+        <mxCell id="EYRNuwx6sj7EWlMIYKQJ-9" value="Turn Player Picks a Pending [Auto]/Effect" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
           <mxGeometry x="530" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYRNuwx6sj7EWlMIYKQJ-17" value="Yes" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#99FF33;align=center;strokeColor=#028090;fillColor=#F45B69;edgeStyle=orthogonalEdgeStyle;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" source="EYRNuwx6sj7EWlMIYKQJ-12" target="EYRNuwx6sj7EWlMIYKQJ-16" edge="1">
@@ -731,7 +731,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BH5rsp91wqA0aSOB4sPM-11" value="Non-Turn Player Picks a Pending [Auto]" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
+        <mxCell id="BH5rsp91wqA0aSOB4sPM-11" value="Non-Turn Player Picks a Pending [Auto]/Effect" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
           <mxGeometry x="100" y="580" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BH5rsp91wqA0aSOB4sPM-13" value="End Checkpoint" style="triangle;whiteSpace=wrap;html=1;fontColor=#E4FDE1;rounded=0;strokeColor=#028090;fillColor=#F45B69;sketch=0;rotation=0;direction=west;" parent="EYRNuwx6sj7EWlMIYKQJ-1" vertex="1">
@@ -945,6 +945,225 @@
         </mxCell>
         <mxCell id="oi6zOz39alBozhUClcpN-0" value="Is the Card still being played to the battle area?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" parent="qAKiohtC5Y-B5FuNh6kR-1" vertex="1">
           <mxGeometry x="334.49" y="530" width="180" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Playing a Battle Card" id="V-QKtQTpSuL2OMzaSzoq">
+    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="gga3JflaVTet1rBY9quF-0" />
+        <mxCell id="gga3JflaVTet1rBY9quF-1" parent="gga3JflaVTet1rBY9quF-0" />
+        <mxCell id="gga3JflaVTet1rBY9quF-3" value="How to play a Battle Card" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;align=center;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="220" y="40" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-4" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-5" target="gga3JflaVTet1rBY9quF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-5" value="Player reveals the card they&#39;re playing from their hand" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="44.48999999999998" y="330" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-6" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-7" target="gga3JflaVTet1rBY9quF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-7" value="Switch the amount of energy necessary to play the card to Rest Mode" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="44.49000000000001" y="490" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=block;endFill=0;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=0;entryY=0;entryDx=0;entryDy=0;endWidth=10.303030303030303;endSize=4.678787878787879;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-10" target="gga3JflaVTet1rBY9quF-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="194" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-10" value="Counter: Play&lt;br&gt;(Window 1)" style="whiteSpace=wrap;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="129.49" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-11" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#114B5F;strokeWidth=4;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-10" target="gga3JflaVTet1rBY9quF-12">
+          <mxGeometry x="0.1595" y="9" relative="1" as="geometry">
+            <mxPoint x="210" y="920" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="769" />
+            </Array>
+            <mxPoint x="530" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-12" value="&lt;font color=&quot;#ffffff&quot;&gt;Any Triggers from Counter Window&lt;br&gt;go into currently pending&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=229;arrowHead=10;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="230" y="740" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-13" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#99FF33;endArrow=block;endFill=0;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-14" target="gga3JflaVTet1rBY9quF-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613" y="1315" />
+            </Array>
+            <mxPoint x="613" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-14" value="Place Battle Card in Battle Area" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="553.0500000000001" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-15" value="“When you play this card”&lt;br&gt;&quot;When your opponent plays a card&quot; &lt;br&gt;go into currently pending&amp;nbsp;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=237.75;arrowHead=10;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="738.5600000000001" y="1230" width="267.75" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-16" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228 , 253 , 225) ; font-family: &amp;quot;helvetica&amp;quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Trigger&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;dashed=1;labelBackgroundColor=none;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashPattern=1 4;" edge="1" parent="gga3JflaVTet1rBY9quF-1" target="gga3JflaVTet1rBY9quF-15">
+          <mxGeometry x="0.0883" y="30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613.5600000000001" y="1280" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="613.0500000000001" y="1230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-17" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=classic;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-18" target="gga3JflaVTet1rBY9quF-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433.99999999999983" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;null&quot;&gt;Checkpoint&lt;/a&gt;" id="gga3JflaVTet1rBY9quF-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+            <mxGeometry x="349.99999999999994" y="1505" width="168" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gga3JflaVTet1rBY9quF-19" value="&lt;font color=&quot;#99ff33&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;endArrow=block;endFill=0;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-21" target="gga3JflaVTet1rBY9quF-14">
+          <mxGeometry x="-0.7861" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-20" value="&lt;font color=&quot;#ff3333&quot;&gt;No&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#99FF33;endArrow=block;endFill=0;strokeColor=#028090;strokeWidth=4;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-21" target="gga3JflaVTet1rBY9quF-42">
+          <mxGeometry x="-0.8661" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1060" />
+              <mxPoint x="240" y="1315" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-21" value="Is the card still being played?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="334.53999999999996" y="970" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-24" value="&lt;font color=&quot;#ff3333&quot;&gt;No&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-22" target="gga3JflaVTet1rBY9quF-5">
+          <mxGeometry x="-0.8001" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-26" value="&lt;font color=&quot;#99ff33&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-22" target="gga3JflaVTet1rBY9quF-25">
+          <mxGeometry x="-0.8148" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-22" value="Are you using a Skill?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="334.49" y="140" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-28" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-25" target="gga3JflaVTet1rBY9quF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-25" value="If the skill isn&#39;t in a public area, reveal the card with the skill" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="600" y="330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-27" target="gga3JflaVTet1rBY9quF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-27" value="Pay All costs for the skill" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="612.5" y="490" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-37" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-29" target="gga3JflaVTet1rBY9quF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-29" value="Counter: Play&lt;br&gt;(Window 1)" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="625" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-31" value="&lt;font color=&quot;#ffffff&quot;&gt;Any Triggers from Counter Window&lt;br&gt;go into currently pending&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=229;arrowHead=10;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="757.5" y="720" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-32" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 2;labelBackgroundColor=#114B5F;strokeWidth=4;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="gga3JflaVTet1rBY9quF-31" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-29">
+          <mxGeometry x="0.0641" y="9" relative="1" as="geometry">
+            <mxPoint x="680" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="685" y="749" />
+            </Array>
+            <mxPoint x="1030.51" y="870" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-33" value="&lt;font color=&quot;#ffffff&quot;&gt;Any Triggers from paying cost&lt;br&gt;go into currently pending&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=229;arrowHead=10;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="757.5" y="570" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-34" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 2;labelBackgroundColor=#114B5F;strokeWidth=4;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" target="gga3JflaVTet1rBY9quF-33">
+          <mxGeometry x="0.4699" y="9" relative="1" as="geometry">
+            <mxPoint x="685" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="685" y="599" />
+            </Array>
+            <mxPoint x="1030.51" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-39" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-36" target="gga3JflaVTet1rBY9quF-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-36" value="Resolve Skill" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="625" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-40" value="&lt;font color=&quot;#ffffff&quot;&gt;Any Triggers from resolving the skill&amp;nbsp;&lt;br&gt;go into currently pending&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=229;arrowHead=10;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="757.5" y="860" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-41" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 2;labelBackgroundColor=#114B5F;strokeWidth=4;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" target="gga3JflaVTet1rBY9quF-40">
+          <mxGeometry x="0.0641" y="9" relative="1" as="geometry">
+            <mxPoint x="685" y="860" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="685" y="889" />
+            </Array>
+            <mxPoint x="1030.51" y="1010" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-44" value="Yes" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-42" target="gga3JflaVTet1rBY9quF-43">
+          <mxGeometry x="-0.6837" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-48" value="&lt;font color=&quot;#ff3333&quot;&gt;No&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-42" target="gga3JflaVTet1rBY9quF-18">
+          <mxGeometry x="-0.8507" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1360" />
+              <mxPoint x="270" y="1550" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-42" value="Were you Using a Skill for this interaction?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="334.99999999999994" y="1270" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-47" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;endArrow=classic;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" source="gga3JflaVTet1rBY9quF-43" target="gga3JflaVTet1rBY9quF-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-43" value="Counter: Play&lt;br&gt;(Window 2)" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="553.05" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-45" value="&lt;font color=&quot;#ffffff&quot;&gt;Any Triggers from Counter Window&lt;br&gt;go into currently pending&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=229;arrowHead=10;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="685" y="1480" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-46" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;dashPattern=1 2;labelBackgroundColor=#114B5F;strokeWidth=4;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gga3JflaVTet1rBY9quF-1" target="gga3JflaVTet1rBY9quF-45">
+          <mxGeometry x="0.0641" y="9" relative="1" as="geometry">
+            <mxPoint x="612.5" y="1480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="612.5" y="1509" />
+            </Array>
+            <mxPoint x="958.01" y="1630" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gga3JflaVTet1rBY9quF-49" value="&lt;font color=&quot;#ffffff&quot;&gt;End&lt;/font&gt;" style="triangle;whiteSpace=wrap;html=1;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;strokeColor=#028090;fillColor=#F45B69;direction=south;" vertex="1" parent="gga3JflaVTet1rBY9quF-1">
+          <mxGeometry x="394" y="1650" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

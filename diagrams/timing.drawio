@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T17:45:12.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UXpkkXyhW_iWYw6fDj14" version="20.0.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-28T18:01:42.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="kfvwdjk6oUUOvbAop4Il" version="20.0.3" type="github" pages="12">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -1590,16 +1590,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rDOqFRNkNv3l8dkcnu_D" name="Checkpoint Argument">
-    <mxGraphModel dx="1663" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#333333" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fj12UHsjbSRWgV72I1-m-1" value="[Auto]&#39;s Example&lt;br&gt;Reveal cards as you activate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="510" y="190" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fj12UHsjbSRWgV72I1-m-2" value="[Auto]&#39;s Example&lt;br&gt;Reveal cards you want to activate when they enter pending" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="510" y="100" width="280" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Fj12UHsjbSRWgV72I1-m-3" value="4-5: Checkpoint" style="swimlane;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
           <mxGeometry x="-230" y="10" width="540" height="1500" as="geometry" />
         </mxCell>
@@ -1822,6 +1816,24 @@
         </mxCell>
         <mxCell id="1DFfWi62SwH4RRdlCZN7-6" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="1DFfWi62SwH4RRdlCZN7-3" target="1DFfWi62SwH4RRdlCZN7-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-48" value="8-6.Resolving [Auto] Skills" style="swimlane;rounded=0;sketch=0;fontSize=11;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="10" width="420" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-50" value="8-6-1. [Auto] skills are skills that automatically activate at the checkpoint which occurs when a specific trigger condition occurs." style="text;whiteSpace=wrap;html=1;fontSize=11;fontColor=#FFFFFF;align=center;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-48">
+          <mxGeometry x="110" y="30" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;strokeColor=#039EB3;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-48" source="1DFfWi62SwH4RRdlCZN7-51" target="1DFfWi62SwH4RRdlCZN7-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-51" value="8-6-2. &lt;br&gt;When the trigger condition of an [Auto] skill is fulfilled, that [Auto] skill is made pending." style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=11;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-48">
+          <mxGeometry x="100" y="100" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-52" value="8-6-3. &lt;br&gt;Unless specified otherwise, if the trigger condition of a [Auto] skill is fulfilled multiple times, that [Auto] skill is made pending that many times." style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=11;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-48">
+          <mxGeometry x="56.66" y="200" width="306.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-54" value="8-6-4 onwards describes Activating the [Auto] in the checkpoint and how to treat information on the card if movement or negation occurs&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-48">
+          <mxGeometry x="60" y="280" width="300" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T18:39:07.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="x-kpiMW5KNerLQKaoJTU" version="17.1.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-28T17:45:12.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UXpkkXyhW_iWYw6fDj14" version="20.0.3" type="github" pages="12">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -772,81 +772,81 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3fYJi-o6dV-SnoK5PB5m" name="Keywords">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="owZ52RjeOc9DLkUqqoNN-0" />
         <mxCell id="owZ52RjeOc9DLkUqqoNN-1" parent="owZ52RjeOc9DLkUqqoNN-0" />
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-0" value="Keywords and Keyword Skills" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;swimlaneFillColor=default;fillColor=#F45B69;strokeColor=#028090;rounded=1;" vertex="1" parent="owZ52RjeOc9DLkUqqoNN-1">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-0" value="Keywords and Keyword Skills" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;swimlaneFillColor=default;fillColor=#F45B69;strokeColor=#028090;rounded=1;" parent="owZ52RjeOc9DLkUqqoNN-1" vertex="1">
           <mxGeometry y="50" width="1066" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-0">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-0" vertex="1">
           <mxGeometry y="30" width="1066" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-2" value="Keyword" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-1">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-2" value="Keyword" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-1" vertex="1">
           <mxGeometry width="196" height="30" as="geometry">
             <mxRectangle width="196" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-0" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-1">
+        <mxCell id="yTyyjHScyXP-500qA2pL-0" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-1" vertex="1">
           <mxGeometry x="196" width="196" height="30" as="geometry">
             <mxRectangle width="196" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-3" value="Description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-1">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-3" value="Description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-1" vertex="1">
           <mxGeometry x="392" width="674" height="30" as="geometry">
             <mxRectangle width="674" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-4" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-0">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-4" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-0" vertex="1">
           <mxGeometry y="60" width="1066" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-5" value="Aegis&amp;nbsp;&lt;br&gt;([Aegis XY])" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-4">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-5" value="Aegis&amp;nbsp;&lt;br&gt;([Aegis XY])" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-4" vertex="1">
           <mxGeometry width="196" height="120" as="geometry">
             <mxRectangle width="196" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-1" value="Activate: Battle" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-4">
+        <mxCell id="yTyyjHScyXP-500qA2pL-1" value="Activate: Battle" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-4" vertex="1">
           <mxGeometry x="196" width="196" height="120" as="geometry">
             <mxRectangle width="196" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-6" value="Aegis is an [Activate: Battle] skill that can only be activated during your Defense Step&lt;br&gt;Aegis activates by placing cards in your hand to the drop that match the colors specified in (XY) of [Aegis XY]&lt;br&gt;&lt;br&gt;A Player who activate Aegis chooses up to 2 of their energy and switches them to active mode&lt;br&gt;&lt;br&gt;Example:&lt;br&gt;[Aegis Blue/Yellow]&lt;br&gt;During your defense step you can discard 1 Multi-Color Blue/Yellow card, or 1 Blue card and 1 Yellow card" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-4">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-6" value="Aegis is an [Activate: Battle] skill that can only be activated during your Defense Step&lt;br&gt;Aegis activates by placing cards in your hand to the drop that match the colors specified in (XY) of [Aegis XY]&lt;br&gt;&lt;br&gt;A Player who activate Aegis chooses up to 2 of their energy and switches them to active mode&lt;br&gt;&lt;br&gt;Example:&lt;br&gt;[Aegis Blue/Yellow]&lt;br&gt;During your defense step you can discard 1 Multi-Color Blue/Yellow card, or 1 Blue card and 1 Yellow card" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-4" vertex="1">
           <mxGeometry x="392" width="674" height="120" as="geometry">
             <mxRectangle width="674" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-0">
+        <mxCell id="yTyyjHScyXP-500qA2pL-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-0" vertex="1">
           <mxGeometry y="180" width="1066" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-4" value="Alliance&lt;br&gt;([Alliance XY])" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="yTyyjHScyXP-500qA2pL-3">
+        <mxCell id="yTyyjHScyXP-500qA2pL-4" value="Alliance&lt;br&gt;([Alliance XY])" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="yTyyjHScyXP-500qA2pL-3" vertex="1">
           <mxGeometry width="196" height="120" as="geometry">
             <mxRectangle width="196" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-5" value="Auto" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="yTyyjHScyXP-500qA2pL-3">
+        <mxCell id="yTyyjHScyXP-500qA2pL-5" value="Auto" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="yTyyjHScyXP-500qA2pL-3" vertex="1">
           <mxGeometry x="196" width="196" height="120" as="geometry">
             <mxRectangle width="196" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-6" value="Trigger: &quot;When this card attacks&quot;&lt;br&gt;Alliance is described as [Alliance XY] (Effect)&lt;br&gt;&lt;br&gt;When a card with [Alliance]&amp;nbsp; attacks, its owner may activate [Alliance] by choosing one or more battle cards in their battle area with colors that match the colors specified in (XY) by [Alliance XY] and switching them to rest mode.&lt;br&gt;The owner of the card then resolves the (Effect) described." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="yTyyjHScyXP-500qA2pL-3">
+        <mxCell id="yTyyjHScyXP-500qA2pL-6" value="Trigger: &quot;When this card attacks&quot;&lt;br&gt;Alliance is described as [Alliance XY] (Effect)&lt;br&gt;&lt;br&gt;When a card with [Alliance]&amp;nbsp; attacks, its owner may activate [Alliance] by choosing one or more battle cards in their battle area with colors that match the colors specified in (XY) by [Alliance XY] and switching them to rest mode.&lt;br&gt;The owner of the card then resolves the (Effect) described." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=1;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="yTyyjHScyXP-500qA2pL-3" vertex="1">
           <mxGeometry x="392" width="674" height="120" as="geometry">
             <mxRectangle width="674" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-7" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-0">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-7" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-0" vertex="1">
           <mxGeometry y="300" width="1066" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-8" value=" Discard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-7">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-8" value=" Discard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-7" vertex="1">
           <mxGeometry width="196" height="60" as="geometry">
             <mxRectangle width="196" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTyyjHScyXP-500qA2pL-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-7">
+        <mxCell id="yTyyjHScyXP-500qA2pL-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-7" vertex="1">
           <mxGeometry x="196" width="196" height="60" as="geometry">
             <mxRectangle width="196" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-9" value="&quot;Discard&quot; refers to placing a card from a players hand to the drop&lt;br&gt;&lt;br&gt;Discard and &quot;Send a card from your hand to the drop&quot; are the same effect." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="eIZ4ceTIdr6qsMeGbTpy-7">
+        <mxCell id="eIZ4ceTIdr6qsMeGbTpy-9" value="&quot;Discard&quot; refers to placing a card from a players hand to the drop&lt;br&gt;&lt;br&gt;Discard and &quot;Send a card from your hand to the drop&quot; are the same effect." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" parent="eIZ4ceTIdr6qsMeGbTpy-7" vertex="1">
           <mxGeometry x="392" width="674" height="60" as="geometry">
             <mxRectangle width="674" height="60" as="alternateBounds" />
           </mxGeometry>
@@ -1585,6 +1585,243 @@
         </mxCell>
         <mxCell id="qKWr7kqEILAHMeJY-bki-21" value="Is the Card still being played to the battle area?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=0;" parent="qKWr7kqEILAHMeJY-bki-1" vertex="1">
           <mxGeometry x="334.49" y="530" width="180" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rDOqFRNkNv3l8dkcnu_D" name="Checkpoint Argument">
+    <mxGraphModel dx="1663" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-1" value="[Auto]&#39;s Example&lt;br&gt;Reveal cards as you activate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-2" value="[Auto]&#39;s Example&lt;br&gt;Reveal cards you want to activate when they enter pending" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-3" value="4-5: Checkpoint" style="swimlane;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="10" width="540" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-5" value="4-5-1. Checkpoints are points of gameplay when rule processing and the activation of [Auto] skills are carried out. &lt;br&gt;&lt;br&gt;4-5-2. During checkpoints, all rule&lt;br/&gt;processing is carried out first. When&lt;br/&gt;all processing is resolved, activate&lt;br/&gt;and resolve any [Auto] skills that have&lt;br/&gt;fulfilled trigger conditions." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#E4FDE1;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-3">
+          <mxGeometry x="145" y="20" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-6" value="4-5-3. &lt;br&gt;If a checkpoint occurs, &lt;br&gt;follow the procedure below." style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-3">
+          <mxGeometry x="170" y="170" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-8" value="4-5-3-1" style="swimlane;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-3">
+          <mxGeometry x="55" y="250" width="430" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-9" value="All rules processing that currently needs to be carried out is resolved simultaneously.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-8">
+          <mxGeometry x="140" y="40" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-15" value="&lt;font color=&quot;#33ff33&quot;&gt;New Rules Processing Did Result&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;labelBackgroundColor=none;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-8" source="1DFfWi62SwH4RRdlCZN7-13" target="1DFfWi62SwH4RRdlCZN7-10">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="270" />
+              <mxPoint x="215" y="270" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-13" value="If a situation requiring new rules processing results," style="rhombus;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-8">
+          <mxGeometry x="116.56" y="160" width="196.88" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-8" source="1DFfWi62SwH4RRdlCZN7-9" target="1DFfWi62SwH4RRdlCZN7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-16" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#33FF33;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-8" source="1DFfWi62SwH4RRdlCZN7-10" target="1DFfWi62SwH4RRdlCZN7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="330" />
+              <mxPoint x="320" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-10" value="&amp;nbsp;repeat this process as long as rules processing is required" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-8">
+          <mxGeometry x="135" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-17" value="4-5-3-2" style="swimlane;rounded=0;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-3">
+          <mxGeometry x="55" y="650" width="430" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-19" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;If [Auto] activations for which the turn player is the Master are awaiting resolution&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-17">
+          <mxGeometry x="110" y="60" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#33FF33;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-17" source="1DFfWi62SwH4RRdlCZN7-21" target="1DFfWi62SwH4RRdlCZN7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-21" value="the turn player chooses one" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-17">
+          <mxGeometry x="162.5" y="190" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-22" value="&lt;font color=&quot;#33ff33&quot;&gt;Turn Player has skills awaiting resolution&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#FF0000;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-17" source="1DFfWi62SwH4RRdlCZN7-19" target="1DFfWi62SwH4RRdlCZN7-21">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="180" />
+              <mxPoint x="215" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-23" value="Activates and resolves it" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-17">
+          <mxGeometry x="140" y="250" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-25" value="And then returns to 4-5-3-1" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-17">
+          <mxGeometry x="137.5" y="310" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-26" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#33FF33;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-17" source="1DFfWi62SwH4RRdlCZN7-23" target="1DFfWi62SwH4RRdlCZN7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-20" value="&lt;font color=&quot;#ff0000&quot;&gt;No New &lt;br&gt;Rules Processing&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-3" source="1DFfWi62SwH4RRdlCZN7-13" target="1DFfWi62SwH4RRdlCZN7-19">
+          <mxGeometry x="-0.8143" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="460" />
+              <mxPoint x="100" y="680" />
+              <mxPoint x="270" y="680" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-27" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=11;fontColor=#33FF33;strokeColor=#03E2FF;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-3" source="1DFfWi62SwH4RRdlCZN7-25" target="1DFfWi62SwH4RRdlCZN7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="980" />
+              <mxPoint x="390" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-3" source="Fj12UHsjbSRWgV72I1-m-6" target="1DFfWi62SwH4RRdlCZN7-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="150" y="240" />
+              <mxPoint x="150" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-37" value="4-5-3-3" style="swimlane;rounded=0;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-3">
+          <mxGeometry x="55" y="1040" width="430" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-38" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;If [Auto] activations for which the non-turn player is the Master are awaiting resolution&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#FFFFFF;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-37">
+          <mxGeometry x="110" y="60" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#33FF33;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-37" source="1DFfWi62SwH4RRdlCZN7-40" target="1DFfWi62SwH4RRdlCZN7-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-40" value="the non-turn player chooses one" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-37">
+          <mxGeometry x="160" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-41" value="&lt;font color=&quot;#33ff33&quot;&gt;Non-Turn Player has skills awaiting resolution&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#FF0000;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-37" source="1DFfWi62SwH4RRdlCZN7-38" target="1DFfWi62SwH4RRdlCZN7-40">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="180" />
+              <mxPoint x="215" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-42" value="Activates and resolves it" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-37">
+          <mxGeometry x="140" y="250" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-43" value="And then returns to 4-5-3-1" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="1DFfWi62SwH4RRdlCZN7-37">
+          <mxGeometry x="137.5" y="310" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-44" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#33FF33;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="1DFfWi62SwH4RRdlCZN7-37" source="1DFfWi62SwH4RRdlCZN7-42" target="1DFfWi62SwH4RRdlCZN7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-45" value="4-5-3-4.&lt;br&gt;End the checkpoint" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#FFFFFF;rounded=0;sketch=0;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-3">
+          <mxGeometry x="210" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-46" value="&lt;span style=&quot;color: rgb(255, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;No Skills Awaiting&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#FF0000;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-3" source="1DFfWi62SwH4RRdlCZN7-38" target="1DFfWi62SwH4RRdlCZN7-45">
+          <mxGeometry x="-0.784" y="-15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="1145" />
+              <mxPoint x="90" y="1460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-47" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=11;fontColor=#FF0000;strokeColor=#039EB3;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-3" source="1DFfWi62SwH4RRdlCZN7-43" target="1DFfWi62SwH4RRdlCZN7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1370" />
+              <mxPoint x="430" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-36" value="&lt;font color=&quot;#ff0000&quot;&gt;No Skills Awaiting&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=11;fontColor=#33FF33;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-3" source="1DFfWi62SwH4RRdlCZN7-19" target="1DFfWi62SwH4RRdlCZN7-38">
+          <mxGeometry x="-0.8833" y="-15" relative="1" as="geometry">
+            <mxPoint x="245" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="755" />
+              <mxPoint x="90" y="1070" />
+              <mxPoint x="270" y="1070" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-9" value="8-5.Activating and Resolving" style="swimlane;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="10" width="380" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-10" value="8-5-1. [Activate], [Auto], [Awaken], [Wish], and cards in a player’s hand are resolved by activating them and triggering their effects. [Permanent] skills do not activate; their effects are constantly active." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#E4FDE1;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="45" y="20" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-24" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="Fj12UHsjbSRWgV72I1-m-11" target="Fj12UHsjbSRWgV72I1-m-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="180" />
+              <mxPoint x="80" y="180" />
+              <mxPoint x="80" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-11" value="8-5-2. &lt;br&gt;Activate skills following the procedure below." style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="112.5" y="110" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-12" value="8-5-2-1" style="swimlane;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="90" y="190" width="205" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-12" source="Fj12UHsjbSRWgV72I1-m-13" target="Fj12UHsjbSRWgV72I1-m-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-13" value="The Player Specifies which skill they wish to activate." style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-12">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-14" value="If they wish to activate the skill of a card in their hand, reveal that card" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-12">
+          <mxGeometry x="10" y="130" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-20" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;8-5-2-2&lt;/span&gt;&lt;br&gt;If there is a necessary skill cost, determine that cost and they pay it entirely. " style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="100" y="410" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="Fj12UHsjbSRWgV72I1-m-21" target="1DFfWi62SwH4RRdlCZN7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-21" value="8-5-2-2-1. &lt;br&gt;When activating Extra Card skills, they determine the Extra Card’s cost and pay it. " style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="65" y="500" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="Fj12UHsjbSRWgV72I1-m-20" target="Fj12UHsjbSRWgV72I1-m-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj12UHsjbSRWgV72I1-m-23" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="Fj12UHsjbSRWgV72I1-m-14" target="Fj12UHsjbSRWgV72I1-m-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-1" value="8-5-2-3.&lt;br&gt;The skill is activated" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="130" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-3" value="8-5-2-4.&lt;br&gt;A counter timing occurs." style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="110" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="1DFfWi62SwH4RRdlCZN7-1" target="1DFfWi62SwH4RRdlCZN7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-7" value="Stopping Here, but 8-5 has more details on resolving the skill from this point on." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#E4FDE1;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="57.5" y="860" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-5" value="8-5-2-5.&lt;br&gt;Resolve the skill." style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=0;sketch=0;" vertex="1" parent="Fj12UHsjbSRWgV72I1-m-9">
+          <mxGeometry x="130" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1DFfWi62SwH4RRdlCZN7-6" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" edge="1" parent="Fj12UHsjbSRWgV72I1-m-9" source="1DFfWi62SwH4RRdlCZN7-3" target="1DFfWi62SwH4RRdlCZN7-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

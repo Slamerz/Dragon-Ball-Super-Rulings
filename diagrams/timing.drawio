@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T16:24:27.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Oc-sGGjKZahJksI5ssGE" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-24T16:24:55.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qZeBgKbBH8cG1KKgQNb2" version="21.0.6" type="github" pages="9">
   <diagram id="8U6ZnmNh8exRSaDuMtKA" name="Base Game Timing">
     <mxGraphModel dx="2284" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -813,7 +813,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="[Counter]" id="2AYvCCj5v41f2V7KWvH0">
-    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="qKWr7kqEILAHMeJY-bki-0" />
         <mxCell id="qKWr7kqEILAHMeJY-bki-1" parent="qKWr7kqEILAHMeJY-bki-0" />
@@ -857,13 +857,13 @@
           <mxGeometry x="660" y="230" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XychKn9Lilub5wO-pV6H-9" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Pending [Auto]&#39;s&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;ul style=&quot;font-size: 12px; font-weight: bold;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;on Play Auto&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;on swing auto, etc.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;(A list of all [Auto]&#39;s that have been triggered but not yet resolved. The order of these doesn&#39;t matter at all, so no need to keep track of which entered pending first)&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=55;spacingRight=36;" vertex="1" parent="qKWr7kqEILAHMeJY-bki-1">
-          <mxGeometry x="1360" y="370" width="375" height="250" as="geometry" />
+          <mxGeometry x="1220" y="430" width="375" height="250" as="geometry" />
         </mxCell>
         <mxCell id="XychKn9Lilub5wO-pV6H-11" value="Triggered [Auto]&#39;s enter pending" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;spacingTop=-10;" vertex="1" parent="qKWr7kqEILAHMeJY-bki-1">
           <mxGeometry x="190" y="156.67" width="155" height="103.33" as="geometry" />
         </mxCell>
         <mxCell id="XychKn9Lilub5wO-pV6H-22" value="Counter Chain Example" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="qKWr7kqEILAHMeJY-bki-1">
-          <mxGeometry x="1370" y="40" width="580" height="320" as="geometry" />
+          <mxGeometry x="1250" y="90" width="580" height="320" as="geometry" />
         </mxCell>
         <mxCell id="XychKn9Lilub5wO-pV6H-23" value="&lt;h1&gt;Counter Motion/Counter Chain&lt;/h1&gt;&lt;p&gt;Each time a new [Counter] is activated, it enters the Counter Motion/Counter Chain.&lt;br&gt;The new [Counter] is always assigned an incrementing number to be the last [Counter] in the chain/motion&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XychKn9Lilub5wO-pV6H-22">
           <mxGeometry x="200" y="40" width="360" height="120" as="geometry" />
